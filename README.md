@@ -22,3 +22,14 @@ git push -u origin branch-a
 git fetch
 git checkout branch-a
 ```
+
+### 删除分支（本地和远程）
+
+```bash
+#  机器A
+git push --delete origin test
+git branch -d test
+
+# 机器B
+git fetch --all --prune
+```
