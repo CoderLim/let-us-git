@@ -22,6 +22,10 @@ git push -u origin branch-a
 # B同学
 git fetch
 git checkout branch-a
+
+#或者
+git checkout -b branch-a
+git pull origin branch-a
 ```
 
 ### 删除分支（本地和远程）
