@@ -9,6 +9,7 @@ git push -f origin dev
 
 # B同学
 git reset --hard origin/dev
+git rebase dev
 ```
 
 ### A同学新建分支a，B同学如何在本地拉取到分支a
