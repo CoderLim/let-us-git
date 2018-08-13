@@ -1,5 +1,9 @@
 ## let-us-git
 
+
+### rebase
+[rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+
 ###  图形化展示
 ```
 git log --graph --pretty=oneline --abbrev-commit
