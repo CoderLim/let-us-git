@@ -7,6 +7,8 @@
 ###  图形化展示
 ```
 git log --graph --pretty=oneline --abbrev-commit
+# 或者
+git log --graph --oneline
 ```
 
 ### A同学reset后，B同学如何拉去到reset的版本
