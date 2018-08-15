@@ -48,3 +48,7 @@ git branch -d test
 # 机器B
 git fetch --all --prune
 ```
+
+
+
+[这是本书: 千万不要打开!](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
