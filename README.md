@@ -1,7 +1,7 @@
 ## let-us-git
 
 
-### rebase
+### git rebase
 [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 ###  图形化展示
