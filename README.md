@@ -49,6 +49,18 @@ git branch -d test
 git fetch --all --prune
 ```
 
+### git revert
+
+```bash
+#  第一步
+git revert 0ab3c3
+#  出现冲突，解决后
+git add file1
+git commit -m 'xxx' file1
+# 然后状态显示：1、解决冲突后执行git revert --continue 2、git revert --abort
+# 但是已经解决了冲突，再add和commit都没效果，所以只能abort了
+# 看看这里的解释： https://www.monarchdigital.com/blog/2015-04-21/understanding-how-git-revert-works-and-when-use-it
+```
 
 
 [这是本书: 千万不要打开!](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
