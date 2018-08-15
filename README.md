@@ -60,6 +60,15 @@ git commit -m 'xxx' file1
 # 然后状态显示：1、解决冲突后执行git revert --continue 2、git revert --abort
 # 但是已经解决了冲突，再add和commit都没效果，所以只能abort了
 # 看看这里的解释： https://www.monarchdigital.com/blog/2015-04-21/understanding-how-git-revert-works-and-when-use-it
+
+#  正确姿势
+# n代表不用每个revert版本都提交commit
+# ..表示左边版本不可达但是右边版本可达的所有提交: 75bc23e是老版本，4de6ad1是最新版本(如果这个是非最新版本貌似会产生和上面一样的问题)
+git revert -n 75bc23e..4de6ad1
+# 然后解决冲突，再
+git add file1
+git commit
+# 会让写commit的备注内容，写完保存，完成！
 ```
 
 
