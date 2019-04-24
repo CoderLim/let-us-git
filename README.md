@@ -71,5 +71,13 @@ git commit
 # 会让写commit的备注内容，写完保存，完成！
 ```
 
+### git 大小写不敏感，重命名报错
+
+```
+The following untracked working tree files would be overwritten by checkout
+```
+
+[参考这里](https://www.cnblogs.com/imzhi/p/solution-to-git-checkout-error-tips.html)
+
 
 [这是本书: 千万不要打开!](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
