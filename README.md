@@ -81,3 +81,16 @@ The following untracked working tree files would be overwritten by checkout
 
 
 [这是本书: 千万不要打开!](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+
+
+### 忽略已在版本中的文件
+
+```
+# git的(.gitignore)不能直接忽略已经在版本库同步了的文件,只能控制本地忽略(不同步)某个文件...
+
+# 如果想在本地忽略某个文件的话执行这个命令:
+git update-index --assume-unchanged <file>
+
+# 如果想重新同步这个文件的话执行这个命令.
+git update-index --no-assume-unchanged <file>
+```
