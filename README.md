@@ -103,4 +103,6 @@ cmd+/ 单行注释
 Option + (shift +) 点选 同时编辑多个位置
 cmd+0/1 切换文件目录和代码窗口
 cmd + b 折叠文件目录
+ctrl + tab 切换到上一个编辑的文件
+ctrl + shift + tab 切换到下一个编辑的文件
 ```
