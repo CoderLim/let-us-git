@@ -94,3 +94,13 @@ git update-index --assume-unchanged <file>
 # 如果想重新同步这个文件的话执行这个命令.
 git update-index --no-assume-unchanged <file>
 ```
+
+### vscode
+
+```
+cmd+shift+L 同时编辑多个变量
+cmd+/ 单行注释
+Option + (shift +) 点选 同时编辑多个位置
+cmd+0/1 切换文件目录和代码窗口
+cmd + b 折叠文件目录
+```
