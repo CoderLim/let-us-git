@@ -1,5 +1,22 @@
 ## let-us-git
 
+### .gitconfig
+```
+[alias]
+        st = status
+        co = checkout
+        com = checkout master
+        cm = commit -m
+        pm = pull origin master
+        mm = merge master
+        df = diff
+        di = diff
+        # push to current branch
+        pc = push origin HEAD
+        br = branch
+        unstage = reset HEAD
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
 
 ### git rebase
 [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
