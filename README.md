@@ -123,3 +123,8 @@ cmd + b 折叠文件目录
 ctrl + tab 切换到上一个编辑的文件
 ctrl + shift + tab 切换到下一个编辑的文件
 ```
+
+### 合并策略
+[git-merge](https://morningspace.github.io/tech/git-merge-stories-2/)
+
+
