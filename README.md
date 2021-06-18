@@ -1,5 +1,9 @@
 ## let-us-git
 
+## 教程
+
+可视化教程：https://learngitbranching.js.org
+
 ### .gitconfig
 ```
 [alias]
